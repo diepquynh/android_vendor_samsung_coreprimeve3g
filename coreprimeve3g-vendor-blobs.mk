@@ -24,10 +24,6 @@ PROPRIETARY_FILES := \
     lib/hw/gps.default.so \
     lib/libboost.so \
     lib/egl/libGLES_mali.so \
-    etc/audio_hw.xml \
-    etc/audio_para \
-    etc/codec_pga.xml \
-    etc/tiny_hw.xml \
     lib/libfactoryutil.so \
     lib/libomission_avoidance.so \
     lib/libatchannel.so \
@@ -57,17 +53,9 @@ PROPRIETARY_FILES := \
     lib/libomx_vpxdec_hw_sprd.so \
     lib/libomx_m4vh263dec_hw_sprd.so \
     lib/libomx_m4vh263enc_hw_sprd.so \
-    lib/libstagefrighthw.so \
-    lib/libstagefright_sprd_h264dec.so \
-    lib/libstagefright_sprd_h264enc.so \
-    lib/libstagefright_sprd_mpeg4dec.so \
-    lib/libstagefright_sprd_mpeg4enc.so \
-    lib/libstagefright_sprd_vpxdec.so \
     lib/hw/camera.sc8830.so \
     lib/hw/gralloc.sc8830.so \
-    lib/hw/hwcomposer.sc8830.so \
     lib/hw/sensors.sc8830.so \
-    lib/hw/sprd_gsp.sc8830.so
 
 PRODUCT_COPY_FILES += \
     $(foreach f,$(PROPRIETARY_FILES),vendor/samsung/coreprimeve3g/proprietary/$(f):system/$(f))
