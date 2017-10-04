@@ -18,6 +18,7 @@ PROPRIETARY_FILES := \
     lib/libisp.so \
     lib/libface_finder.so \
     lib/hw/camera.sc8830.so \
+    lib/hw/gralloc.sc8830.so \
     lib/hw/sensors.sc8830.so
 
 PRODUCT_COPY_FILES += \
