@@ -22,9 +22,9 @@ PROPRIETARY_FILES := \
     etc/wifi/nvram_net.txt \
     lib/libisp.so \
     lib/libface_finder.so \
-	lib/egl/libGLES_mali.so \
+    lib/egl/libGLES_mali.so \
+    lib/libboost.so \
     lib/hw/camera.sc8830.so \
-    lib/hw/gralloc.sc8830.so \
     lib/hw/sensors.sc8830.so
 
 PRODUCT_COPY_FILES += \
